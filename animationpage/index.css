@@ -1,0 +1,17 @@
+
+body{
+    margin:0;
+    padding:0;
+}
+.container
+{
+    background: url(images/background.png);
+    height: 90vh;
+    width:100%;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
