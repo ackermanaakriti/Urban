@@ -18,11 +18,23 @@ body{
 
 .navbar ul li a{
     text-decoration: none;
-    color:black;
-    display:flex;
+    color:rgb(92, 16, 69);
+    font-size: 20px;
+    padding:10px;
+  
 }
 .navbar ul li 
 {
     list-style: none;
+    display: inline-flex;
+    margin:10px;
    
+}
+.btn
+{
+    border:2px solid rgb(124, 16, 57);
+    padding:10px;
+    text-decoration: none;
+    color:rgb(77, 13, 45);
+    margin:5px;
 }
