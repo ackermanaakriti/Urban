@@ -12,7 +12,24 @@ body{
 .logo
 {
     width: 160px;
+    cursor: pointer;
+    animation:movedown 1s linear 1;
+    animation-fill-mode: forwards;
+    visibility: hidden;
   
+}
+@keyframes movedown 
+{
+    0%
+    {
+       transform: translateY(-100px); 
+       visibility:visible;
+    }
+    100%
+    {
+        transform: translateY(0);
+        visibility: visible;
+    }
 }
 .navbar
 {
@@ -50,6 +67,9 @@ body{
     font-size: 30px;
     text-align: center;
     margin-top:30px;
+    animation: moveright 1s linear 1;
+animation-delay: 0s;
+animation-fill-mode: forwards;
 }
 .content p{
     color :rgb(12, 48, 71);
@@ -63,6 +83,20 @@ text-align: center;
     display: block;
 height: 20vh;
 
+
+}
+@keyframes moveright
+{
+    0%
+    {
+       transform: translateX(-100px); 
+       visibility:visible;
+    }
+    100%
+    {
+        transform: translateX(0);
+        visibility: visible;
+    }
 }
 .myimgaes
 {
@@ -84,14 +118,39 @@ height: 20vh;
     background-color: transparent;
     border-radius: 8px;
     margin-left: 20%;
+    cursor: pointer;
+}
+.shop-btn:hover
+{
+    background: rgb(129, 197, 197);
+    color:black;
+    border:transparent;
+    font-size:24px;
 }
 .feature-img
 {
     height: 200px;
-
+visibility: hidden;
    position: absolute;
    right:140px;
+   animation: moveup 3s linear 1;
+animation-delay: 1s;
+animation-fill-mode: forwards;
 }
+@keyframes moveup
+{
+    0%
+    {
+       transform: scale(0) ;
+       visibility:visible;
+    }
+    100%
+    {
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
 .social-links
 {
     display: inline-flex;
