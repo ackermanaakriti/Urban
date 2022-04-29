@@ -6,8 +6,13 @@ body{
 .container
 {
     background: url(images/background.png);
-    height: 90vh;
+    height: 100vh;
     width:100%;
+}
+.logo
+{
+    width: 160px;
+  
 }
 .navbar
 {
@@ -36,5 +41,66 @@ body{
     padding:10px;
     text-decoration: none;
     color:rgb(77, 13, 45);
-    margin:5px;
+    margin-left:45vw;
+    
+}
+.content h1
+{ 
+    color:rgb(12, 48, 71);
+    font-size: 30px;
+    text-align: center;
+    margin-top:30px;
+}
+.content p{
+    color :rgb(12, 48, 71);
+font-size:20px ;
+text-align: center;
+
+}
+.content
+{
+  margin-top: 40px;
+    display: block;
+height: 20vh;
+
+}
+.myimgaes
+{
+    display: inline;
+}
+.shopimg
+{
+    height: 150px;
+    right:100px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.shop-btn
+{
+    padding:20px;
+    width: 200px;
+    font-size: 20px;
+    border:2px solid rgb(11, 77, 104);
+    background-color: transparent;
+    border-radius: 8px;
+    margin-left: 20%;
+}
+.feature-img
+{
+    height: 200px;
+
+   position: absolute;
+   right:140px;
+}
+.social-links
+{
+    display: inline-flex;
+    margin-top: 40vh;
+   
+}
+.social-links a{
+    padding:10px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
 }
